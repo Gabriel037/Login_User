@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Tilt Warp', cursive;
+    background: linear-gradient(to bottom, #FFFFFF, #0000006a);
+}
+
+input {
+    width: 15vw;
+    height: 4vh;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 9px;
+    padding-left: 13px;
+    caret-color: #ff8000;
+}
+
+input:focus {
+    outline: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    font-size: 2.7em;
+    font-weight: 100;
+}
+
+form {
+    padding-bottom: 40px;
+}
+
+button {
+    width: 15vw;
+    height: 4vh;
+    border-radius: 20px;
+    text-decoration: none; 
+    border: none;
+    font-family: 'Tilt Warp', cursive;
+    color: #fefefe;
+    background-color: #ff8000;
+    font-size: 1em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#inputSubmit {
+    width: 15vw;
+    height: 4vh;
+    border-radius: 20px;
+    text-decoration: none; 
+    border: none;
+    font-family: 'Tilt Warp', cursive;
+    color: #ffffff;
+    background-color: #ff8000;
+    font-size: 1em;
+}
+
+#inputSubmit:hover {
+    cursor: pointer;
+}
+
+#update {
+    width: 15vw;
+    height: 4vh;
+    border-radius: 20px;
+    text-decoration: none; 
+    border: none;
+    font-family: 'Tilt Warp', cursive;
+    color: #ffffff;
+    background-color: #ff8000;
+    font-size: 1em;
+}
+
+#update:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #3cb3de;
+}
+
+.content {
+    color: #fefefe;
+    background-color: #633197;
+    border-radius: 20px;
+    padding: 20px;
+    height: 65vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
