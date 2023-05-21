@@ -7,8 +7,9 @@
         $email = $_POST['email'];
         $telefone = $_POST['telefone'];
         $senha = $_POST['senha'];
+        $senhaCriptografada = password_hash($senha, PASSWORD_DEFAULT);
 
-        $sqlUpdate = "UPDATE user SET nome='$nome', email='$email', telefone='$telefone', senha='$senha' WHERE id='$id'";
+        $sqlUpdate = "UPDATE user SET nome='$nome', email='$email', telefone='$telefone', senha='$senhaCriptografada' WHERE id='$id'";
         $result = $conexao->query($sqlUpdate);
     }
     header('Location: sistema.php');
